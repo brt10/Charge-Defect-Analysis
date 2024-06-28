@@ -9,7 +9,7 @@ do
 	cd $a
 	if [ -e "./vAtoms.dat" ]
 	then
-		echo "stop,$a" >> ../Atoms_output.csv
+		echo "stop,$a" >> ../vAtoms_output.csv
 		awk '{print $1 "," $2 "," $3 "," $4 "," $5}' vAtoms.dat >> ../vAtoms_output.csv
 	fi
 	cd ..
