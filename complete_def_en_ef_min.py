@@ -432,7 +432,8 @@ for p in range(0, int(len(elements)/numOfElements)):
     tempArray = [] 
     forGraph = []
     forCharge = []
-    
+    tempChargeArray = []
+  
     for n in range (0, len(graphValues)):
         allValues.append(graphValues[n])
         allCharges.append(minCharge[n])
